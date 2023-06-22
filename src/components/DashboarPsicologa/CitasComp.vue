@@ -31,7 +31,7 @@
             <th>{{ imagen.cita_id }}</th>
             <td>{{ imagen.fecha }}</td>
             <td>{{ imagen.hora_id }}</td>
-            <td> <button type="button" @click="eliminarCitaAceptada(imagen.cita_id)" class="btn btn-primary"> eliminar</button> </td>
+            <td> <button type="button" @click="eliminarCita(imagen.cita_id)" class="btn btn-primary"> eliminar</button> </td>
           </tr>
         </tbody>
       </table>
